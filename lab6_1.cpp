@@ -9,6 +9,7 @@ int main(){
     cin>>num[i];
     if(num[i]==0){
         r=0;
+        E--;
     }
     if(num[i]%2==0){
         E++;
@@ -19,7 +20,7 @@ int main(){
     i++;
     }
     cout << "#Even numbers = ";
-    cout<< E;
+    cout<< E<<endl;
     cout << "#Odd numbers = ";
     cout<<O;
     return 0;
